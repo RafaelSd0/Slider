@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="m-0 p-0">
+    <section>
+        <div class="h-screen w-screen flex justify-center items-center" >
+        
+
+            <div class=" w-5/6 grid grid-flow-col gap-3 snap-x snap-mandatory overflow-x-scroll scroll-smooth ">
+                
+                <div class=" h-64 w-64 bg-black snap-center  "></div>
+                <div class=" h-64 w-64 bg-blue-900 snap-center  "></div>
+                <div class=" h-64 w-64 bg-amber-700 snap-center  "></div>
+                <div class=" h-64 w-64 bg-cyan-700 snap-center  "></div>
+                <div class=" h-64 w-64 bg-red-600 snap-center  "></div>
+                <div class=" h-64 w-64 bg-emerald-600 snap-center  "></div>
+                <div class=" h-64 w-64 bg-fuchsia-800 snap-center  "></div>
+                <div class=" h-64 w-64 bg-gray-600 snap-center  "></div>
+                <div class=" h-64 w-64 bg-white snap-center  "></div>
+                <div class=" h-64 w-64 bg-indigo-700 snap-center  "></div>
+                <div class=" h-64 w-64 bg-sky-600 snap-center  "></div>
+                <div class=" h-64 w-64 bg-lime-600 snap-center  "></div>
+                <div class=" h-64 w-64 bg-orange-600 snap-center  "></div>
+                <div class=" h-64 w-64 bg-purple-700 snap-center  "></div>
+                <div class=" h-64 w-64 bg-teal-950 snap-center  "></div>
+                <div class=" h-64 w-64 bg-yellow-500 snap-center  "></div>
+                <div class=" h-64 w-64 bg-zinc-900 snap-center  "></div>
+    
+    
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="h-screen w-screen flex justify-center items-center" >
+
+            <button id="scrollLeft" class="absolute left-52 ml-2 p-2 rounded-md focus:outline-none hover:bg-gray-300 z-10">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/left.png" alt="left"/>
+            </button>
+            <button id="scrollRight" class="absolute right-48 mr-2 p-2 rounded-md focus:outline-none hover:bg-gray-300 z-10">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/right--v1.png" alt="right"/>
+            </button>
+            
+            <div id="scrollContainer" class=" w-3/5 grid grid-flow-col gap-3 overflow-hidden ">
+                
+                
+                <div class=" h-64 w-64 bg-black rounded-lg"></div>
+                <div class=" h-64 w-64 bg-blue-900  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-amber-700  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-cyan-700  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-red-600  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-emerald-600 rounded-lg "></div>
+                <div class=" h-64 w-64 bg-fuchsia-800 rounded-lg "></div>
+                <div class=" h-64 w-64 bg-gray-600  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-white  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-indigo-700 rounded-lg "></div>
+                <div class=" h-64 w-64 bg-sky-600  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-lime-600  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-orange-600 rounded-lg "></div>
+                <div class=" h-64 w-64 bg-purple-700 rounded-lg "></div>
+                <div class=" h-64 w-64 bg-teal-950  rounded-lg"></div>
+                <div class=" h-64 w-64 bg-yellow-500 rounded-lg "></div>
+                <div class=" h-64 w-64 bg-zinc-900 rounded-lg "></div>
+
+
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="relative h-screen w-screen flex justify-center">
+        
+        <div id="bg-slide" class="h-4/5 w-3/5  flex overflow-hidden items-center">
+
+            <img src="/assets/img/img1.jpg" alt="img1">
+            <img src="/assets/img/img2.jpg" alt="img2">
+            <img src="/assets/img/img3.jpg" alt="img3">
+            <img src="/assets/img//img4.jpg" alt="img4">
+            
+                
+        </div>
+        <div id="ContBut" class="absolute inset-0 top-3/4 flex justify-center  ">
+
+            <button id="btn1" onclick="goToImg(0)"  class=" rounded-full h-4 w-4 bg-transparent border-solid border-2 border-gray-950 hover:bg-neutral-600"></button>
+            <button id="btn2" onclick="goToImg(1)"  class=" rounded-full h-4 w-4 bg-transparent border-solid border-2 border-gray-950 hover:bg-neutral-600"></button>
+            <button id="btn3" onclick="goToImg(2)"  class=" rounded-full h-4 w-4 bg-transparent border-solid border-2 border-gray-950 hover:bg-neutral-600"></button>
+            <button id="btn4" onclick="goToImg(3)" class=" rounded-full h-4 w-4 bg-transparent border-solid border-2 border-gray-950 hover:bg-neutral-600"></button>
+
+
+
+        </div>
+
+    </section>
+    
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
