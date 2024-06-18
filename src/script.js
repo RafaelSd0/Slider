@@ -34,7 +34,7 @@ scrollRight.addEventListener('click', () => {
 });
 
 const bgSlide = document.getElementById('bg-slide');
-const scrollAmount2 = bgSlide.clientWidth; // largura de um slide
+const scrollAmount2 = bgSlide.clientWidth;
 let scrollPosition = 0;
 
 setInterval(() => {
